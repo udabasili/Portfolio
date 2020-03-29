@@ -25,7 +25,7 @@ export const applicationData = [
     description: 'This is a  movie database  that gives a list of all the best quality movies ever released. You also get to filter out the movies based on genre',
     image: 'https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
     programs: 'React js/Redux, Multiple Apis, Node',
-    github:"https://github.com/udabasili/Portfolio/tree/master/client/src/components/movie-go",
+    github:"https://github.com/udabasili/movie-go",
     link: ' https://moviego.herokuapp.com/',
   },
   {
