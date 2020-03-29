@@ -63,8 +63,8 @@ export default class Slide extends Component {
 							key={applicationData[i].index} 
 							slideData={applicationData[i]} />
 						
-					<a href="javascript:void(0)" className="prev" onClick={this.onClickLeftButtonHandler}>&#10094;</a>
-					<a href="javascript:void(0)" className="next" onClick={this.onClickRightButtonHandler}>&#10095;</a>
+					<a href="javascript:void(0)" className="left-button" onClick={this.onClickLeftButtonHandler}>&#10094;</a>
+					<a href="javascript:void(0)" className="right-button" onClick={this.onClickRightButtonHandler}>&#10095;</a>
 				</div>
 				<br/>
 				<div className="button-container">
