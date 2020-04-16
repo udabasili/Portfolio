@@ -3,6 +3,8 @@
   position: relative;
   margin: auto;
   height: 80vh;
+  overflow: hidden;
+  overflow: hidden;
 }
 
 .button-container{

@@ -3,10 +3,8 @@ import './about.styles.css';
 import Header from '../../components/header/header.component';
 
 
-class About extends React.Component {
+const  About = () => {
 
-
-  render() {
     return (
       <div>
         <Header />
@@ -33,7 +31,7 @@ class About extends React.Component {
         </main>
       </div>
     );
-  }
+  
 }
 
 

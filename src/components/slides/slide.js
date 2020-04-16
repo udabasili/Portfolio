@@ -9,15 +9,15 @@ export default class Slide extends Component {
     this.state = {
       slideContent: applicationData,
       currentSlide: 0,
-    };
-  }
+    	};
+  	}
 
   	setSlideHandler(slideNumber){
 		  this.setState({
 			  currentSlide: slideNumber
 		  })
 	  }
-		// Slide button for the left and right
+
 	onClickRightButtonHandler =() => {
 		if (this.state.currentSlide < 3) {
 			this.setState((prevState) => ({ currentSlide: prevState.currentSlide + 1 }),
