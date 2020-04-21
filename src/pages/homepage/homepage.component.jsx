@@ -39,11 +39,9 @@ class HomePage extends React.PureComponent {
             {currentTimeFormatted}
           </div>
           <div className="main-home-header">
-            <div className="content__container">
-                <p className="content__container__list__item"> Welcome To My World</p>
-            </div>
+            <h1 className="primary-header"> Welcome To My World</h1>
           </div>
-          <a className="get_started_button get_started_button-white" href="/projects">
+          <a className="start-button start-button-white" href="/projects">
               Get Started
             </a>
         </main>

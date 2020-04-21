@@ -1,17 +1,13 @@
-
-/*navigation bar main container*/
 .navigation-container{
 	position: relative;
 	width: 100%;
-	padding: 1rem;
 }
 
-/*navigation bar contents*/
 .navigation-container .navigation-list{
 	color:black;
 	font-size: 1.9rem;
 	display: flex;
-	margin: 0;
+	padding: 0;
     flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
@@ -30,24 +26,10 @@
 	text-decoration: none;
 }
 
-/** mobile screen css modification**/
 @media only screen and (max-width: 600px) {
-	.navigation-container{
-		margin: 0;
-		padding: 0;
-	}
 	.navigation-container .navigation-list{
-		color:black;
-		font-size: 1rem;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
-		font-family: 'Limelight', cursive;
-		list-style-type: none;
+		font-size: 1rem
 	}
-	
-	
- }
-
+}
 
 

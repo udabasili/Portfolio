@@ -5,10 +5,10 @@ import Header from '../../components/header/header.component';
 class Portfolio extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Header/>
         <Slide />
-      </div>
+      </React.Fragment>
     );
   }
 }

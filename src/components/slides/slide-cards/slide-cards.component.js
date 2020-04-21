@@ -14,7 +14,6 @@ const SlideCard = ({ slideData }) => {
 
   return (
     <React.Fragment>
-      <div class="slide">
         <img className="slide-image" style={{width:"100%"}} alt={name} src={image} />
         <div class="slide-text">
           <h1 className="slide-title">{name}</h1>
@@ -22,7 +21,6 @@ const SlideCard = ({ slideData }) => {
             <p className="slide-description">{description}</p>
             <a className="slide-button" rel="noopener noreferrer"  target="_blank"  href={link}>Open</a>
             <a className="slide-button" rel="noopener noreferrer" target="_blank" href={github}>Code</a>
-          </div>
         </div>
       </div>
     </React.Fragment>

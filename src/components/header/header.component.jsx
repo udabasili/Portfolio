@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   
-  <div>
+  <React.Fragment>
     <nav className="navigation-container">
       <ul className="navigation-list">
         <NavLink className="navigation-item" to="/">
@@ -18,7 +18,7 @@ const Header = () => (
         </NavLink>
       </ul>
     </nav>
-  </div>
+  </React.Fragment>
 );
 
 export default Header;

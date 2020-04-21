@@ -1,37 +1,5 @@
-.slide {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-  height: 100%;
-}
-
-@-webkit-keyframes slide {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes slide {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-.slide-image{
-  width: 100%;
-  height: 100%;
-}
-
-.slide-text{
-  position: absolute;
-  top: 0;
-  text-align: center;
-  right: 0;
-  background-color: white;
-  width: 50%;
-  height: 100%;
-}
-
 .slide-title{
+  font-size: 1.2rem;
   width: 100%;
   margin: 1rem auto;
   text-transform: uppercase;
@@ -41,14 +9,29 @@
   position: absolute;
 }
 
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+
 .slide-description{
+  font-size: .7rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  line-height: 2rem;
-  font-size: .9rem;
   font-family: Arial, Helvetica, sans-serif;
-
+  font-family: Arial, Helvetica, sans-serif
 }
+
+.slide-text {
+  position: absolute;
+  text-align: center;
+  right: 0;
+  background-color: white;
+  bottom: 0;
+  width: 100%;
+  height: 50%
+}
+
 .bottom-text-box{
   position: absolute;
   bottom: 0%;
@@ -57,104 +40,90 @@
   width: 100%;
   height: 80%;
   font-family: 'Cuprum', sans-serif;
-  padding: 4px;
+  padding: 4px
 }
-
 
 .slide-button{
   color: black;
   padding: 10px;
   position: relative;
-  top: 5rem;
+  top: 0rem;
   margin: 5%;
-  padding: 10px 30px;
+  padding: 5px 10px;
   text-decoration: none;
   border: 1px solid black;
-	background-color: yellow;
-  font-weight: bolder;
+  background-color: yellow;
+  font-weight: 400;
+  font-size: .5rem;
   border-radius: 5px;
-	cursor: pointer;
-	
+  cursor: pointer;
 }
- 
 
-@media only screen and (max-width: 600px) {
-  .slide_container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 auto;
-  
+
+@media only screen and (min-width: 600px) {
+  .slide-title{
+    font-size: 1.5rem
   }
-  .left_slide_container{
-    width: 0;
-    height: 0;
-    opacity: 0;
-    z-index: -1;
-  
-  }
-  .right_slide_container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .application_details{
-    width: 100%;
-    z-index: 1;
-  }
-  .nextArrow{
-    display: none;
-  }
-  .application_title{
-    font-size: 2em;
-    font-family: 'Orbitron', sans-serif;
-    color: black;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-  
-  }
+
   .slide-description{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 1rem;
-  
-  }
-  .slide-programs {
-    display: none;
-  }
-  .application_link{
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    z-index: 10;
-    transform: translate(-50%, -50%);
-    border: 3px solid black;
-    font-size: 2rem;
-    background-color: black;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    text-decoration: none;
-    color: white;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif
   }
 
   .slide-button{
-    color: black;
-    padding: 10px;
-    position: relative;
-    top: 5rem;
-    margin: 5%;
-    padding: 10px 30px;
-    text-decoration: none;
-    border: 1px solid black;
-    background-color: yellow;
+    top: 20px;
     font-weight: bolder;
-    border-radius: 5px;
-    cursor: pointer;
-    
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 10px 20px;
   }
+
 }
+
+@media only screen and (min-width: 768px) {
+  @-webkit-keyframes slide {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes slide {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .slide-text{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    right: 0;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .slide-title{
+    width: 100%;
+    font-size: 2rem;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    top: 0;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: bolder;
+    position: absolute;
+  }
+  
+  .slide-description{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 2rem;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .slide-button{
+    top: 2rem;
+
+  }
+
+}
+

@@ -7,8 +7,6 @@
 	text-align: center;
 	flex-direction: row;
 }
-/*Styling for the first half of the the page */
-
 .section-bio .about-primary-header{
 	color: white;
 	text-align: center;
@@ -49,14 +47,11 @@
 }
 
 @media only screen and (max-width: 600px){
-	
 	.section-bio{
 		width:90%;
-		
 	}
 	
 	.profile-text-container{
-
 		line-height: 20px;
 	}
 
