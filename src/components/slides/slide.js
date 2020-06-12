@@ -11,7 +11,7 @@ export default class Slide extends Component {
       currentSlide: 0,
     	};
   	}
-
+	  
   	setSlideHandler(slideNumber){
 		  this.setState({
 			  currentSlide: slideNumber
@@ -63,8 +63,8 @@ export default class Slide extends Component {
 							key={applicationData[i].index} 
 							slideData={applicationData[i]} />
 						
-					<a href="javascript:void(0)" className="left-button" onClick={this.onClickLeftButtonHandler}>&#10094;</a>
-					<a href="javascript:void(0)" className="right-button" onClick={this.onClickRightButtonHandler}>&#10095;</a>
+					<a href="#!" className="left-button" onClick={this.onClickLeftButtonHandler}>&#10094;</a>
+					<a href="#!" className="right-button" onClick={this.onClickRightButtonHandler}>&#10095;</a>
 				</div>
 				<br/>
 				<div className="button-container">

@@ -12,15 +12,15 @@ const SlideCard = ({ slideData }) => {
     link,
     } = slideData;
 
-  return (
+    return (
     <React.Fragment>
-        <img className="slide-image" style={{width:"100%"}} alt={name} src={image} />
-        <div class="slide-text">
-          <h1 className="slide-title">{name}</h1>
-          <div className="bottom-text-box">
+        <img className="slide-image" style={{width:"100%"}} src={image} />
+        <div className="slide-text">
+          <h1 className="slide-title header-tertiary">{name}</h1>
+            <div className="bottom-text-box">
             <p className="slide-description">{description}</p>
-            <a className="slide-button" rel="noopener noreferrer"  target="_blank"  href={link}>Open</a>
-            <a className="slide-button" rel="noopener noreferrer" target="_blank" href={github}>Code</a>
+            <a className="secondary-button" rel="noopener noreferrer"  target="_blank"  href={link}>Visit</a>
+            <a className="secondary-button" rel="noopener noreferrer" target="_blank" href={github}>Github</a>
         </div>
       </div>
     </React.Fragment>

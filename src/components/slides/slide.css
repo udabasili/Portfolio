@@ -4,7 +4,9 @@
   margin: auto;
   height: 80vh;
   overflow: hidden;
-  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.315),
+  0 10px 10px rgba(0, 0, 0, 0.253)
+  ;
 }
 
 .button-container{
@@ -20,7 +22,15 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  
 }
+
+@media only screen and (max-width: 600px) {
+    .button{
+      height: 5px;
+      width: 5px;
+    }
+  }
 
 .active-dot, .button:hover {
   background-color: black;
@@ -33,14 +43,14 @@
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
   font-weight: bold;
   font-size: 2rem;
   text-decoration: none;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: rgba(0,0,0,0.8)
+  background-color: black;
+  color: white;
 
 }
 
@@ -65,12 +75,12 @@
 
 @media only screen and (max-width: 600px) {
   .slide-container{
-    width: 95vw
+    width: 90vw
   }
 } 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width:600px) and  (max-width: 768px) {
   .slide-container{
-    width: 95vw
+    width: 80vw
   }
 } 

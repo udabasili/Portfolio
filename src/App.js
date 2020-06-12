@@ -1,15 +1,13 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import About from './pages/about/about.components';
 import HomePage from './pages/homepage/homepage.component';
-import Portfolio from './pages/portfolio/portfolio.component';
+import Header from './components/header/header.component';
 
 function App () {
     return (
       <React.Fragment>
+        <Header/>
         <Route exact path="/" component={HomePage} />
-        <Route path="/projects" component={Portfolio} />
-        <Route exact path="/contact" component={About} />
       </React.Fragment>
     );
   
