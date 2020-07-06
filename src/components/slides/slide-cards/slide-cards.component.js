@@ -14,7 +14,7 @@ const SlideCard = ({ slideData }) => {
 
     return (
     <React.Fragment>
-        <img className="slide-image" style={{width:"100%"}} src={image} />
+        <img className="slide-image" style={{width:"100%"}} src={image} alt='' />
         <div className="slide-text">
           <h1 className="slide-title header-tertiary">{name}</h1>
             <div className="bottom-text-box">
