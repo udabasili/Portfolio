@@ -16,7 +16,7 @@ export const applicationData = [
     image: require('../assets/Socialisers.png'),
     programs: 'React/Redux, Node(Express Js), MongoDb',
     github: "https://github.com/udabasili/socializers",
-    link: 'socializers-app.herokuapp.com/',
+    link: 'https://socializers-app.herokuapp.com/',
   },
   {
     index: 3,
