@@ -55,4 +55,8 @@ $default-font-size: 1.6rem;
     &:hover {
         transform: translateY(-1.5rem) scale(1.03);
     }
+
+    &__text{
+	    font-size: 2rem;
+    }
 }

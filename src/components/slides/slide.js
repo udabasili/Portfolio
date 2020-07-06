@@ -19,7 +19,7 @@ export default class Slide extends Component {
 	  }
 
 	onClickRightButtonHandler =() => {
-		if (this.state.currentSlide < 3) {
+		if (this.state.currentSlide < 4) {
 			this.setState((prevState) => ({ currentSlide: prevState.currentSlide + 1 }),
 			() =>{ this.setButton(this.state.currentSlide) });
 		} else {
@@ -41,7 +41,7 @@ export default class Slide extends Component {
 
 	onClickLeftButtonHandler =() => {
 		if (this.state.currentSlide === 0) {
-			this.setState({ currentSlide: 3 },
+			this.setState({ currentSlide: 4 },
 			() =>{ this.setButton(this.state.currentSlide) });
 		} else {
 		this.setState((prevState) => ({ currentSlide: prevState.currentSlide - 1 }),
@@ -72,6 +72,7 @@ export default class Slide extends Component {
 					<span className="button button-2" onClick={() => this.setSlideHandler(1)}></span> 
 					<span className="button button-3" onClick={() =>this.setSlideHandler(2)}></span> 
 					<span className="button button-4" onClick={() =>this.setSlideHandler(3)}></span> 
+					<span className="button button-5" onClick={() =>this.setSlideHandler(4)}></span> 
 
 				</div>
 			</React.Fragment>

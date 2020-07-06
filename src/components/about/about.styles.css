@@ -1,12 +1,13 @@
 .section-bio{
 	text-align: center;
 	display: flex;
-	width:70%;
+	width:50%;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.315),
 	0 10px 10px rgba(0, 0, 0, 0.253);
 	background-color: white;
 	margin: 20vh auto;
 	padding: 6rem 6rem;
+	font-size: 2rem;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;

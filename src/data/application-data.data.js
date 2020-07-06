@@ -1,16 +1,25 @@
 export const applicationData = [
-
+  
   {
     index: 1,
     name: 'Top Fashion',
     description: 'This is a sample clothing shop built  with  React , Node  amongst other libraries.Users have the ability to sign Up , add the products already listed to shopping carts and simulate a credit card payment.',
     image: require('../assets/Top Fashion.png'),
-    programs: 'React/Redux, Node(Express Js), Strip API',
+    programs: 'React/Redux, Node(Express Js), Strip API, MongoDb',
     github:"https://github.com/udabasili/topfashion",
     link: 'https://www.top-fashion.me/',
   },
   {
     index: 2,
+    name: 'Socialisers',
+    description: 'This is a sample social media website that offers posts, liking posts and chatting with users',
+    image: require('../assets/Socialisers.png'),
+    programs: 'React/Redux, Node(Express Js), MongoDb',
+    github: "https://github.com/udabasili/socializers",
+    link: 'socializers-app.herokuapp.com/',
+  },
+  {
+    index: 3,
     name: 'Simply Chat',
     description: 'This is a chat app built with  React , Node ,SocketIo etc. and offers multiple functionalities such as video calling, private messaging, group messaging, authentication, listening to music on spotify etc',
     image: require('../assets/Simply Chat.png'),
@@ -20,7 +29,7 @@ export const applicationData = [
   },
 
   {
-    index: 3,
+    index: 4,
     name: 'Movie Go',
     description: 'This is a  movie database  that gives a list of all the best quality movies ever released. You also get to filter out the movies based on genre',
     image: require('../assets/MovieGo.jpeg'),
@@ -29,7 +38,7 @@ export const applicationData = [
     link: ' https://moviego.herokuapp.com/',
   },
   {
-    index: 4,
+    index: 5,
     name: 'Wouff',
     description: 'Website for a dog training business.',
     image: require('../assets/Wouff.png'),
